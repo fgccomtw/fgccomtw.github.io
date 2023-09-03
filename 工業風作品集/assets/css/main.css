@@ -986,11 +986,15 @@ input, select, textarea {
 				position: relative;
 				border: 0;
 				outline: 0;
+				width: 100%;/* hwight & width 設定 */
+				height: 100%;/* hwight & width 設定 */
 			}
 
 				#thumbnails article .thumbnail img {
 					display: block;
-					width: 100%;
+					width: 100%;/* hwight & width 設定 */
+					height: 100%;/* hwight & width 設定 */
+					object-fit: cover/* 圖片顯示模式 (要有hwight & width 設定*/;
 				}
 
 				#thumbnails article .thumbnail:before {
