@@ -37,7 +37,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: darkslateblue;
+	background-color: rgb(246, 245, 250,00); /* 00 底部透明 99底部不透明*/
 	width: 50px;
 	height: 50px;
 	font-size: 2em;
@@ -55,7 +55,7 @@ body {
 }
 
 .go-top:hover {
-	background-color: #53e3fb;
+	background-color: #09167d00; /* 游標移動至箭頭底部顏色 00 底部透明 99底部不透明*/
 }
 
 
