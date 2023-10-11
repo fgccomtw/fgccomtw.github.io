@@ -3,7 +3,7 @@
 if(isset($_REQUEST['email']) && strlen($_REQUEST['email']) > 5) 
 {
     // 取得資訊
-    $admin_email = "aaronlife@gmail.com";
+    $admin_email = "henry.fgc@gmail.com";
     $header = "From:".$_REQUEST['email']."\r\n";
     $name = $_REQUEST['name'];
     $message = $_REQUEST['message'];
